@@ -16,7 +16,7 @@ namespace Movies.RestApi.Adapters
                 { 
                     ID = m.ID,
                     AverageRating =
-                        $"{(Math.Round(m.CalculatedAverageRating * 2, MidpointRounding.AwayFromZero) / 2) * 1.0:0.0}",
+                        $"{(Math.Round(m.CalculatedAverageRating * 2, MidpointRounding.AwayFromZero) / 2):0.0}",
                     Genres = m.Genres,
                     RunningTime = m.RunningTime,
                     Title = m.Title,
