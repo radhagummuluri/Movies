@@ -19,6 +19,6 @@ Data is seeded in the database when the application runs for the first time.
 Swagger url when application is run from visual studio - http://localhost:5000/swagger/index.html
 
 List of Apis
-1. HttpGet /v1/movies/search -> related to ApiA
-2. HttpGet /v1/movies/topFive -> related to ApiB and ApiC(userId query param is optional)
-3. HttpPost /v1/movies/movieRating -> related to ApiD
+1. HttpGet /v1/movies/search
+2. HttpGet /v1/movies/topFive
+3. HttpPost /v1/movies/movieRating
